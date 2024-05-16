@@ -1,12 +1,10 @@
-# INFO 4310 — Final Project Report
+# The 2024 Atlantic Hurricane Season: How bad could it be?
+
+**Online Version**: https://ep393.github.io/info4310-final-project/
 
 ## Overview
 
 This repository contains the final project for INFO 4310, which aims to inform users about the 2024 Atlantic hurricane season by following Hurricane Katrina’s path. The project provides an in-depth, interactive analysis to educate and inform the public about the potential severity of the upcoming hurricane season, the science behind hurricanes, and the impact of climate change on their intensity and frequency.
-
-## Online Version
-
-You can view the online version of the project [here](https://jgreene114.github.io/INFO4310-FP/index.html).
 
 ## Goals and Motivation
 
@@ -49,19 +47,7 @@ The primary goal of this project is to educate and inform the public about:
 - **Ocean Heat Content in Main Development Region Line Plot**: No additional processing required.
 - **Bubble Chart of Billion-Dollar Natural Disasters**: Processed event dates, converted costs to billions, cleaned event descriptions.
 
-## Process and Other Designs Considered
-
-- Initial ideas included 3-panel pages and scraping Wikipedia for hurricane overviews.
-- Focused on visual elements and scroll-triggered transitions using GreenSock (GSAP).
-- Feedback led to a more scoped and focused project.
-
-## Final Design
-
-### Visual Channels
-- Size indicates intensity (e.g., map and bubble chart).
-- Color transitions show value changes (e.g., wind speed and SSHS value).
-
-### Implementation
+## Implementation
 - **Niño Regions Sea Surface Temperatures Line Plot**: Visualizes temperature trends and anomalies over time with interactive tooltips.
 - **Oceanic Niño Index (ONI) Bar Chart**: Emphasizes temperature anomalies with dual Y-axes and interactive elements.
 - **Ocean Heat Content in MDR Line Plot**: Focuses on heat content trends in the Main Development Region.
